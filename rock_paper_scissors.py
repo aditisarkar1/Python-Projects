@@ -5,7 +5,7 @@ options = ["rock", "paper", "scissors"]
 print("--- Welcome to Rock, Paper, Scissors! ---")
 
 while True:
-    # Computer chooses a NEW move every round
+    # Computer chooses a New move every round
     comp_choice = random.choice(options)
     
     user_choice = input("\nEnter rock, paper, or scissors: ").lower()
