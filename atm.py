@@ -1,5 +1,5 @@
 # Starting money
-balance = float(input("Set your balance:"))  
+balance = abs(float(input("Set your balance:")))  
 pin = str(input("set your 4 digit secret pin:"))  # Secret PIN
 # Check the length
 if len(pin) != 4:
@@ -38,12 +38,12 @@ if entered_pin == pin:
             print(f"Your current balance is: ${balance}")
             
         elif choice == "2":
-            amount = float(input("Enter deposit amount: "))
+            amount = abs(float(input("Enter deposit amount: ")))
             balance += amount # This is the same as balance = balance + amount
             print(f"Successfully deposited ${amount}")
             
         elif choice == "3":
-            amount = float(input("Enter withdrawal amount: "))
+            amount = abs(float(input("Enter withdrawal amount: ")))
             # Logical Check: Don't let them take money they don't have!
             if amount > balance:
                 print("Insufficient funds!")
