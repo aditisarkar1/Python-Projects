@@ -71,5 +71,5 @@ Feel free to use, modify, and learn from these scripts.
 
 ---
 
-Have a nice day! 🎉
+Have a nice day! 
 
