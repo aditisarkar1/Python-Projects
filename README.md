@@ -18,7 +18,6 @@ A collection of beginner-friendly Python projects focused on logic building, gam
 | **Number Guessing Game** | An interactive game where the user guesses a computer-generated number. |
 | **Rock, Paper, Scissors** | A classic game played against the computer. |
 | **Pascal's Triangle** | Generates mathematical patterns using nested loops/logic. |
-|**Largest Subarray Length** | Logic to identify the longest array within a collection . |
 
 ## 📦 Prerequisites
 * **Python 3.x** installed on your system.
@@ -51,10 +50,6 @@ Implements logic to compare user input against the computer's randomized choice 
 
 5. Pascal's Triangle (pascal.py)
 Uses nested loops and combinations logic to generate the rows of Pascal’s Triangle.
-
-6. Largest subarray length (largest_subarray_length.py)
-Implements an algorithm to iterate through a list of strings and determine the longest one based on character length.
-
 
 💡 Learning Outcomes
 Through these projects, I have practiced:
